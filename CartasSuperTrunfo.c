@@ -120,7 +120,11 @@ int main() {
 
   printf("\n");
 
+
+  // Deixei como comentário a primeira forma de comparação.
+  /*
   int resultadoPopulacao, resultadoArea, resultadoPib, resultadoPontosTuristicos, resultadoDensidadePopulacional, resultadoPibPercapita, resultadoSuperPoder;
+
 
   resultadoPopulacao = populacao1 > populacao2;
   resultadoArea = area1 > area2;
@@ -138,7 +142,23 @@ int main() {
   printf("Pontos Turisticos: %d\n", resultadoPontosTuristicos);
   printf("Densidade Populacional: %d\n", resultadoDensidadePopulacional);
   printf("PIB Per Capita: %d\n", resultadoPibPercapita);
-  printf("Super Poder: %d\n", resultadoSuperPoder);
+  printf("Super Poder: %d\n", resultadoSuperPoder);*/
+
+  printf("\n");
+  printf("Comparação das cartas (Atributo: Pontos Turísticos):\n");
+  printf("\n");
+  printf("Carta 1 - %s : %d\n", cidade1, pontosTuristicos1);
+  printf("Carta 2 - %s : %d\n", cidade2, pontosTuristicos2);
+  if (pontosTuristicos1 > pontosTuristicos2 )
+  {
+      printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
+  }
+  else 
+  {
+      printf("Carta 2 (%s) venceu!\n", cidade2);
+  }
+
+
 
   
 return 0;
